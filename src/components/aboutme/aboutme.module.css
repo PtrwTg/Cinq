@@ -12,16 +12,16 @@
 
 .pabout{
     font-size: 40px;
-    margin-left: 120px;
+    margin-left: 8%;
 }
 .underline {
     border-bottom: 5px solid #6C6C6C; 
-    width: 860px; 
-    margin-left: 120px;
+    width: 57.5%; 
+    margin-left: 8%;
   }
  .profile{
     margin-top: 20px;
-    margin-left: 80px;
+    margin-left: 7.5%;
     display: flex;
   }
 .profileimg {
@@ -29,41 +29,37 @@
 }
 .pprofile {
     margin-top: 60px;
-    margin-left: 30px;
+    margin-left: 1%;
     font-size: 35px;
-    width: 900px;
+    width: 64%;
+    word-wrap: break-word;
+
+
 }
 
 .presume {
     font-size: 40px;
-    margin-left: 700px;
+    margin-left: 45%;
     margin-top: -30px;
 }
 .divresume {
-    margin-left: 975px;
+    margin-left: 65%;
     margin-top: -40px;
 }
 .resume{
-    width: auto;
+    width: 40%;
     height: 250px;
 }
 
-.button{
-    width: auto;
-    height: 100px;
-    margin-top: -60px;
-    margin-left: -50px;
-
-}
 .divbutton{
 margin-top: -70px;
-margin-left: -45px;
+margin-left: -9%;
 position: relative;
 
 }
 
 .circle_button {
-  width: 100px;
+  width: 17%;
   height: 100px;
   border-radius: 50%;
   background: #FFFFFF;
@@ -89,8 +85,8 @@ position: relative;
 }
 
 .circle_button svg {
-  width: 40px;
-  height: 40px;
+  width: 40%;
+  height: 40%;
   transition: color 0.3s ease;
 }
 
