@@ -3,7 +3,7 @@
 .divcon {
     width: 100%;
     font-family: 'NunitoSans';
-    height: 1000px;
+    height: 700px;
 }
 
 .divtopic{
@@ -27,43 +27,22 @@
   }
 
   .divpex1{
-    width: 100%;
+    width: 80%;
+    text-align: center;
+    margin-left: 2%;
   }
 
-  .pex1_1{
-    margin-left: 50px;
+  .p_workex {
+    transition: text-shadow 0.3s ease-in-out; 
   }
-  .pex1_2{
-    margin-left: 30px;
-    margin-top: 10px;
-  }
-  .pex1_3{
-    margin-left: 250px;
-    margin-top: 10px;
+  
+  .p_workex:hover {
+    text-shadow: 0 0 5px rgba(0, 0, 0, 0.5); /* เพิ่มเงาให้กับตัวอักษร */
   }
 
-  .pex1_4{
-    margin-left: 50px;
-    margin-top: 10px;
-  }
-  .pex1_5{
-    margin-left: 70px;
-  }
-  .pex1_6{
-    margin-left: 120px;
-    margin-top: 10px;
-  }
 
-  .pex1_7{
-    margin-left: 80px;
-    margin-top: 10px;
-  }
-  .pex1_8{
-    margin-left: 180px;
-    margin-top: 10px;
-  }
   .img{
-    margin-top: 100px;
+    margin-top: 50px;
   }
 
   .portbut{
@@ -83,24 +62,4 @@
     color: #ffff;
   }
 
-  .pex1_1,
-  .pex1_2,
-  .pex1_3,
-  .pex1_4,
-  .pex1_5,
-  .pex1_6,
-  .pex1_7,
-  .pex1_8 {
-    transition: box-shadow 1s ease;
-  }
 
-  .pex1_1:hover,
-.pex1_2:hover,
-.pex1_3:hover,
-.pex1_4:hover,
-.pex1_5:hover,
-.pex1_6:hover,
-.pex1_7:hover,
-.pex1_8:hover {
-  text-shadow: 0 0 10px rgba(0, 0, 0, 0.3);
-}

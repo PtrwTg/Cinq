@@ -1,0 +1,38 @@
+@import './font.css';
+
+.main{
+    height: 1000px;
+    width: 100%;
+}
+.choice{
+    display: flex;
+    margin-top: 10%;
+    margin-left: 16%;
+}
+
+.appimg,.webimg{
+    width: 70%;
+    transition: box-shadow 0.3s ease;
+    border-radius: 30px;
+}
+.webimg{
+    margin-left: 20%;
+}
+
+.appimg:hover, .webimg:hover {
+    box-shadow: 0 20px 15px rgba(7, 65, 96, 0.4);
+  }
+
+  .divp{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 20px;
+    font-family: 'NunitoSans';
+    margin-top: 7%;
+  }
+
+  .pmargin{
+    margin-left: 38%;
+  }
+  
