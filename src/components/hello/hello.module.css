@@ -19,7 +19,7 @@
 
 .name {
     font-size: 200px;
-    margin-left: 1rem;
+    margin-left: 1%;
     font-family: 'Inter', sans-serif;
 }
 .lname {
@@ -31,7 +31,7 @@
 .underline {
     border-bottom: 5px solid #6C6C6C; 
     width: 99%; 
-    margin-top: 2rem;
+    margin-top: 60px;
   }
 .position{
     font-size: 70px;
@@ -39,63 +39,4 @@
     font-family: 'NunitoSans';
 }
 
-@media screen and (max-width: 1200px) {
-    .hello {
-      font-size: 60px;
-    }
-    
-    .name, .lname {
-      font-size: 150px;
-    }
-    
-    .position {
-      font-size: 50px;
-    }
-  }
-  
-  @media screen and (max-width: 992px) {
-    .hello {
-      font-size: 40px;
-    }
-    
-    .name, .lname {
-      font-size: 120px;
-    }
-    
-    .position {
-      font-size: 40px;
-    }
-  }
-  
-  @media screen and (max-width: 768px) {
-    .main {
-      width: 80%;
-      margin-left: 10%;
-    }
-    
-    .hello {
-      font-size: 30px;
-    }
-    
-    .name, .lname {
-      font-size: 80px;
-    }
-    
-    .position {
-      font-size: 30px;
-    }
-  }
-  
-  @media screen and (max-width: 480px) {
-    .hello {
-      font-size: 20px;
-    }
-    
-    .name, .lname {
-      font-size: 60px;
-    }
-    
-    .position {
-      font-size: 20px;
-    }
-  }
+
