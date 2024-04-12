@@ -3,6 +3,7 @@
 .main{
     height: 1000px;
     width: 100%;
+    margin-top: 20%;
 }
 .choice{
     display: flex;

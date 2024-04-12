@@ -1,13 +1,10 @@
 .buble1 {
   position: absolute;
-  top: 0;
-  right: 0;
-  width: 100%;
-  height: 100%;
   z-index: -1;
-  overflow: hidden;
+  margin-top: 100px;
   }
-
+  
+  
   .buble2 {
     position: absolute;
     z-index: -1;

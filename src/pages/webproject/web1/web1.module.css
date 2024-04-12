@@ -2,6 +2,8 @@
 
 .main {
     width: 100%;
+    margin-top: 10%;
+
 }
 
 .app1_1{
@@ -21,6 +23,9 @@
     font-size: 30px;
 
 }
+.p:hover {
+    text-shadow: 0 0 5px rgba(0, 0, 0, 0.5);
+  }
 .app1_3{
     width: 95%;
     margin-left: 2%;

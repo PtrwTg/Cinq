@@ -14,12 +14,21 @@ function copyToClipboard(text) {
 
 function contact() {
   return (
-    <div className={styles.container}>
+    <div className={styles.container} id="contact">
       <p className={styles.pcontact}>Contact me</p>
       <div className={styles.divbutton}>
-        <button className={styles.skillbut}>Bē</button>
-        <button className={styles.skillbut}>F</button>
-        <button className={styles.skillbut}>in</button>
+      <button className={styles.skillbut}>
+      <span className={styles.tooltip}>Hello Bēhance ! 👋</span>
+        Bē
+      </button>
+      <button className={styles.skillbut}>
+        <span className={styles.tooltip}>Hello Facebook ! 👋</span>  
+        F 
+      </button>
+      <button className={styles.skillbut}>
+        <span className={styles.tooltip}>Hello LinkedIn ! 👋</span>
+        in
+      </button>
       </div>
       <div className={styles.divcontact}>
         <p>

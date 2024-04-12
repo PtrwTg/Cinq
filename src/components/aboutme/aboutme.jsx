@@ -23,7 +23,7 @@ function Aboutme() {
         <div className={styles.profile}>
           <img className={styles.profileimg} src={profile} alt="profile" />
           <div className={styles.pprofile}>
-            <p>My name is Cinq. I am a graphic designer who is interested  in  UX/UI design . I'm studying in the bachelor of Multimedia Technology and Animation at MFU. I enjoy looking through different trends for fresh ideas. I'm searching for new experiences right now, and I hope that we can collaborate. :)</p>
+            <p>My name is Cinq. I am a graphic designer who is interested in  UX/UI design . I'm studying in the bachelor of Multimedia Technology and Animation at MFU. I enjoy looking through different trends for fresh ideas. I'm searching for new experiences right now, and I hope that we can collaborate. :)</p>
           </div>
         </div>
         <p className={styles.presume}>My Resume</p>

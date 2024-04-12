@@ -13,10 +13,10 @@ function webproject() {
       <Bluenavbar />
       <main className={styles.main}>
         <div className={styles.choice}>
-          <Link to="/web1">
+          <Link to="/web2">
             <img className={styles.web1img} src={Web1} alt="" />
           </Link>
-          <Link to="/web2">
+          <Link to="/web1">
             <img className={styles.web2img} src={Web2} alt="" />
           </Link>
           <Link to="/web3">
@@ -24,9 +24,9 @@ function webproject() {
           </Link>
         </div>
         <div className={styles.divp}>
-          <p className={styles.pmargin1}>JournalMood</p>
-          <p className={styles.pmargin2}>Wonder</p>
-          <p className={styles.pmargin3}>Pocket</p>
+          <p className={styles.pmargin1}>Livinghouse</p>
+          <p className={styles.pmargin2}>My portfolio website</p>
+          <p className={styles.pmargin3}>2 hand</p>
         </div>
       </main>
       <Contact />

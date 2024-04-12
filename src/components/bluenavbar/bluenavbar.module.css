@@ -1,37 +1,48 @@
 @import './font.css';
 
-
-.bluenavbar{
-    background-color: #D0E3FF;
-    width: 100%;
-    height: 120px;
-    font-family: 'NunitoSans';
-    display: flex;
-    align-items: center;
+.bluenavbar {
+  background-color: #D0E3FF;
+  width: 100%;
+  height: 120px;
+  font-family: 'NunitoSans';
+  display: flex;
+  align-items: center;
+  position: fixed;
+  top: 0;
+  left: 0;
+  z-index: 1000;
+  transition: top 0.3s ease-in-out;
 }
+
+.bluenavbar.hidden {
+  top: -120px;
+}
+
 .back {
-    margin-left: 8%;
-    width: 4%;
+  margin-left: 8%;
+  width: 4%;
+  cursor: pointer;
 }
 
 .menu {
-    display: flex;
-    width: 25%;
-    margin-left: 60%;
-}
-a {
-    font-size: 20px;
-    text-decoration: none;
-    color: black;
-    font-family: 'NunitoSans';
-    font-weight: 600;
-}
-    
-a:hover {
-    color: #6C6C6C; 
-  }
-li {
-    list-style-type: none;
-    margin-left: 8%;
+  display: flex;
+  width: 30%;
+  margin-left: 55%;
 }
 
+a {
+  font-size: 20px;
+  text-decoration: none;
+  color: black;
+  font-family: 'NunitoSans';
+  font-weight: 600;
+}
+
+a:hover {
+  color: #6C6C6C;
+}
+
+li {
+  list-style-type: none;
+  margin-left: 8%;
+}

@@ -3,6 +3,7 @@
 .main{
     height: 1000px;
     width: 100%;
+    margin-top: 20%;
 }
 .choice{
     display: flex;
@@ -38,10 +39,10 @@
     margin-left: 20%;
   }
   .pmargin2{
-    margin-left: 20%;
+    margin-left: 16%;
   }
   .pmargin3{
-    margin-left: 22%;
+    margin-left: 17.5%;
   }
 
   .pmargin1,.pmargin2,.pmargin3{

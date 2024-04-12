@@ -28,19 +28,19 @@
     width: 30%;
 }
 .pprofile {
-    margin-top: 60px;
+    margin-top: 70px;
     margin-left: 1%;
-    font-size: 35px;
-    width: 64%;
-    word-wrap: break-word;
-
-
+    font-size: 30px;
+    width: 65%;
+    & p{
+      text-align: justify;
+      text-align-last: justify;
+    }
 }
 
 .presume {
     font-size: 40px;
     margin-left: 45%;
-    margin-top: 5%;
 }
 .divresume {
     margin-left: 65%;
@@ -92,4 +92,79 @@ position: relative;
 
 .circle_button:hover svg {
   color: #D0E3FF;
+}
+
+@media screen and (max-width: 1200px) {
+  .pabout, .presume {
+    font-size: 32px;
+  }
+
+  .pprofile {
+    font-size: 24px;
+  }
+}
+
+@media screen and (max-width: 992px) {
+  .profile {
+    flex-direction: column;
+    align-items: center;
+  }
+
+  .profileimg {
+    width: 50%;
+  }
+
+  .pprofile {
+    margin-top: 20px;
+    width: 80%;
+  }
+
+  .presume {
+    margin-left: 30%;
+  }
+
+  .divresume {
+    margin-left: 50%;
+  }
+}
+
+@media screen and (max-width: 768px) {
+  .pabout, .presume {
+    font-size: 28px;
+  }
+
+  .pprofile {
+    font-size: 20px;
+  }
+
+  .divresume {
+    margin-left: 40%;
+  }
+
+  .resume {
+    width: 60%;
+  }
+}
+
+@media screen and (max-width: 480px) {
+  .pabout, .presume {
+    font-size: 24px;
+  }
+
+  .pprofile {
+    font-size: 16px;
+  }
+
+  .divresume {
+    margin-left: 20%;
+  }
+
+  .resume {
+    width: 80%;
+  }
+
+  .circle_button {
+    width: 25%;
+    height: 80px;
+  }
 }

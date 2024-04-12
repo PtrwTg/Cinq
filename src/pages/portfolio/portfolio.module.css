@@ -1,6 +1,6 @@
 @import './font.css';
-
 .main{
+  margin-top: 17.5%;
     height: 1000px;
     width: 100%;
 }
@@ -8,6 +8,8 @@
     display: flex;
     margin-top: 10%;
     margin-left: 16%;
+    scroll-behavior: smooth;
+
 }
 
 .appimg,.webimg{
