@@ -1,8 +1,8 @@
 import React from 'react'
 import styles from './app2.module.css'
 import Navbar from '../../../components/bluenavbar/bluenavbar'
-import App2_1 from './app2_1.png'
-import App2_2 from './app2_2.png'
+import App2_1 from './app2_1.svg'
+import App2_2 from './app2_2.svg'
 import Contact from '../../../components/contact/contact'
 
 

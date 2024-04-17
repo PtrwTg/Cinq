@@ -116,3 +116,18 @@
 p {
   margin-top: 10px;
 }
+
+@media screen and (max-width: 480px){
+  .skillbut{
+    width: 25%;
+    height: 25%;
+    margin-top: 10%;
+    border-radius: 10%;
+    }
+  .divbutton{
+    margin-left: 5%;
+  }
+  .container{
+    height: 70%;
+  }
+}

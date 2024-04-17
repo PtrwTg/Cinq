@@ -1,6 +1,6 @@
 import React from 'react'
 import styles from './skills.module.css'
-import skillsimg from './skillsimg.png'
+import skillsimg from './skillsimg.svg'
 
 function skills() {
   return (

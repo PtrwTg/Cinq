@@ -160,11 +160,13 @@ position: relative;
   }
 
   .resume {
-    width: 80%;
+    width: 60%;
+    margin-left: 10%;
   }
 
   .circle_button {
     width: 25%;
     height: 80px;
+    margin-left: 5%;
   }
 }

@@ -23,6 +23,17 @@
     margin-left: 7%;
   }
 .skillsimg{
-    margin-left: 31.5%;
-    margin-top: 100px;
+    margin-left: 38%;
+    margin-top: 2.5%;
+    width: 25%;
+}
+
+@media screen and (max-width: 480px){
+    .pskill{
+        margin-left: 32.5%;
+    }
+    .skillsimg{
+        width: 60%;
+        margin-left: 22%;
+    }
 }

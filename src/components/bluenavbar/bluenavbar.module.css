@@ -46,3 +46,18 @@ li {
   list-style-type: none;
   margin-left: 8%;
 }
+
+@media screen and (max-width: 480px){
+  .menu {
+    display: flex;
+    width: 100%;
+    margin-left: 5%;
+  }
+  a {
+    font-size: 12px;
+  }
+  .bluenavbar{
+    height: 7.5%;
+  }
+
+}

@@ -1,9 +1,9 @@
 import React from 'react'
 import styles from './web1.module.css'
 import Navbar from '../../../components/bluenavbar/bluenavbar'
-import Web1_1 from './web1_1.png'
-import Web1_2 from './web1_2.png'
-import Web1_3 from './web1_3.png'
+import Web1_1 from './web1_1.svg'
+import Web1_2 from './web1_2.svg'
+import Web1_3 from './web1_3.svg'
 import Contact from '../../../components/contact/contact'
 
 

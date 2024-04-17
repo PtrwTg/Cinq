@@ -1,9 +1,9 @@
 import React from 'react'
 import styles from './workex.module.css'
-import Img1   from './1st.png'
-import Img2   from './2st.png'
-import Img3   from './3th.png'
-import Img4   from './4th.png'
+import Img1   from './1st.svg'
+import Img2   from './2st.svg'
+import Img3   from './3th.svg'
+import Img4   from './4th.svg'
 import { Link } from 'react-router-dom';
 
 
@@ -15,7 +15,7 @@ function workex() {
             <div className={styles.underline}></div>
         </div>
         <div className={styles.workex}>
-            <img src={Img1} alt="" />
+            <img src={Img1} className={styles.img} alt="" />
             <div className={styles.divpex1}>
               <p className={styles.p_workex}>During the 1st years I want to try new experiences. And I tried to learn how to 
                 <br /> make filters on IG. I've tried making about 4 filters. and has the highest number of 

@@ -1,8 +1,8 @@
 import React from 'react'
 import styles from './web3.module.css'
 import Navbar from '../../../components/bluenavbar/bluenavbar'
-import Web3_1 from './web3_1.png'
-import Web3_2 from './web3_2.png'
+import Web3_1 from './web3_1.svg'
+import Web3_2 from './web3_2.svg'
 import Contact from '../../../components/contact/contact'
 
 

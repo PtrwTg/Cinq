@@ -17,7 +17,7 @@
 
 .underline {
     border-bottom: 5px solid #6C6C6C; 
-    width: 85%; 
+    width: 102%; 
     margin-left: 7.5%;
     margin-top: 1%;
   }
@@ -60,6 +60,16 @@
     background: #D0E3FF;
     border: 1px solid #D0E3FF;
     color: #ffff;
+  }
+
+  @media screen and (max-width: 480px){
+    .img{
+      width: 85%;
+    }
+    .divtopic{
+      margin-left: -10%;
+    }
+
   }
 
   
