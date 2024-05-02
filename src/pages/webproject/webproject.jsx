@@ -13,20 +13,24 @@ function webproject() {
       <Bluenavbar />
       <main className={styles.main}>
         <div className={styles.choice}>
+        <div className={styles.selectchoice}>
           <Link to="/web2">
             <img className={styles.web1img} src={Web1} alt="" />
           </Link>
+          <p className={styles.pweb}>Livinghouse</p>
+          </div>
+          <div className={styles.selectchoice}>
           <Link to="/web1">
             <img className={styles.web2img} src={Web2} alt="" />
           </Link>
+          <p className={styles.pweb}>My portfolio website</p>
+          </div>
+          <div className={styles.selectchoice}>
           <Link to="/web3">
             <img className={styles.web3img} src={Web3} alt="" />
           </Link>
-        </div>
-        <div className={styles.divp}>
-          <p className={styles.pmargin1}>Livinghouse</p>
-          <p className={styles.pmargin2}>My portfolio website</p>
-          <p className={styles.pmargin3}>2 hand</p>
+          <p className={styles.pweb}>2 hand</p>
+          </div>
         </div>
       </main>
       <Contact />

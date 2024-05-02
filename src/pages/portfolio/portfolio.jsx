@@ -12,16 +12,18 @@ const Portfolio = () => {
       <Bluenavbar />
       <main className={styles.main}>
         <div className={styles.choice}>
+        <div className={styles.selectchoice}>
           <Link to="/appproject">
             <img className={styles.appimg} src={appimg} alt="" />
           </Link>
+          <p>Application</p>
+          </div>
+          <div className={styles.selectchoice}>
           <Link to="/webproject">
             <img className={styles.webimg} src={webimg} alt="" />
           </Link>
-        </div>
-        <div className={styles.divp}>
-          <p>Application</p>
-          <p className={styles.pmargin}>Website</p>
+          <p>Website</p>
+          </div>
         </div>
       </main>
       <Contact />

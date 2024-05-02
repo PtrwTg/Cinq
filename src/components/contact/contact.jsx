@@ -42,7 +42,7 @@ function Contact() {
           <FaRegCopy className={styles.copyIcon} onClick={() => copyToClipboard('phurichaya.7502@gmail.com')} />
         </p>
         <p>
-          Line ID: 0993656596{' '}
+          Tel. : 0993656596{' '}
           <FaRegCopy className={styles.copyIcon} onClick={() => copyToClipboard('0993656596')} />
         </p>
       </div>

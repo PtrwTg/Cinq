@@ -8,13 +8,24 @@
 .choice{
     display: flex;
     margin-top: 10%;
-    margin-left: 15%;
+    font-family: 'NunitoSans';
+    font-weight: 600;
+    font-size: 20px;
+    justify-content: center;
+    align-items: center;
+    max-width: 100%;
 }
-
+.selectchoice{
+  max-width: 20%;
+  margin: 0 2%;
+}
 .app1img,.app2img,.app3img{
-    width: 70%;
+    width: 100%;
     transition: box-shadow 0.3s ease;
     border-radius: 30px;
+}
+.papp{
+  text-align: center;
 }
 
 
@@ -28,24 +39,28 @@
     box-shadow: 0 20px 15px rgba(195, 29, 203, 0.4);
   }
 
-  .divp{
-    display: flex;
-    font-size: 20px;
-    font-family: 'NunitoSans';
-    font-weight: 600;
-  }
 
-  .pmargin1{
-    margin-left: 20%;
+  @media (max-width: 768px) {
+    
+    .main{
+      height: 75vh;
   }
-  .pmargin2{
-    margin-left: 20%;
-  }
-  .pmargin3{
-    margin-left: 22%;
-  }
+    .choice {
+      margin-top: 30%;
+      font-size: 16px;
+      display: grid;
+    }
 
-  .pmargin1,.pmargin2,.pmargin3{
-    margin-top: 8%;
-  }
+    .selectchoice{
+      max-width: 40%;
+      margin: 0 30%;
+      margin-top: 5%;
+    }
   
+    .app1img,
+    .app2img,
+    .app3img {
+      width: 100%;
+    }
+
+  }
